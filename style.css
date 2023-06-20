@@ -1,0 +1,52 @@
+div.header, div.experience-set {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+div.header, div.skills, div.experience, div.education, div.certificate {
+    padding: 0 1rem 0;
+}
+
+div.experience {
+    display: flex;
+    flex-direction: column;
+}
+
+div.name-container {
+    padding-left: 30%;
+    padding-top: 1%;
+}
+
+h2.sec-heading {
+    margin: 0;
+}
+
+hr {
+    margin: 0;
+}
+
+ul.contact-list {
+    list-style-type: none;
+    text-align: right;
+}
+
+ul.company, ul.time-period {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+ul.company li.position {
+    font-size: 1.2rem;
+}
+
+ul.description-points {
+    list-style-type: disc;
+    margin-top: 0;
+}
+
+ul.contact-list a {
+    text-decoration: none;
+    color: black;
+}
